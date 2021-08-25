@@ -1,4 +1,4 @@
-from soma import Soma
+from classes.soma import Soma
 
 a = 3
 b = 4
