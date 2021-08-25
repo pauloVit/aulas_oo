@@ -1,3 +1,10 @@
-print("Meu primeiro arquivo indo para o Git")
+from soma import Soma
 
-print("Segundo commit do repositório")
+a = 3
+b = 4
+soma = Soma()
+resultado = soma.soma(a, b)
+
+print("Resultado da soma = " + str(resultado))
+
+
